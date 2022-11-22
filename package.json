@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"server": "node server.js",
-		"build": "npx tailwindcss -i ./src/style.css -o ./dist/style.css",
+		"build": "npx tailwindcss -i ./src/style.css -o ./dist/style.css && cp ./src/index.html ./dist/index.html",
 		"test": "npm run build && npm run server"
 	},
 	"repository": {
