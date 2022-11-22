@@ -1,0 +1,24 @@
+{
+	"name": "mypage",
+	"version": "0.0.1",
+	"description": "For my personal webpage",
+	"main": "index.js",
+	"scripts": {
+		"server": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Excute/mypage.git"
+	},
+	"keywords": [
+		"Excute",
+		"webpage",
+		"tailwindcss"
+	],
+	"author": "Excute",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Excute/mypage/issues"
+	},
+	"homepage": "https://github.com/Excute/mypage#readme"
+}
