@@ -1,3 +1,5 @@
+const statusPort = "10100";
+
 const pages = [
 	{
 		name: "excute",
@@ -34,7 +36,9 @@ function setClass(classList, aClass, aBool) {
 }
 
 async function fetchUsersStatuses() {
-	return fetch("http://oys1751.iptime.org:10090").then((res) => res.json());
+	return fetch(`http://oys1751.iptime.org:${statusPort}`).then((res) =>
+		res.json()
+	);
 }
 
 async function setUserStatuses() {
