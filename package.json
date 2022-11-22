@@ -20,5 +20,8 @@
 	"bugs": {
 		"url": "https://github.com/Excute/mypage/issues"
 	},
-	"homepage": "https://github.com/Excute/mypage#readme"
+	"homepage": "https://github.com/Excute/mypage#readme",
+	"devDependencies": {
+		"tailwindcss": "^3.2.4"
+	}
 }
