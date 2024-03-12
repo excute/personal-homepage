@@ -1,5 +1,9 @@
 {
   "devDependencies": {
-    "tailwindcss": "^3.3.5"
+    "tailwindcss": "^3.4.1"
+  },
+  "scripts": {
+    "build-tailwindcss": "npx tailwindcss -i ./src/style.css -o ./public/style.css",
+    "mirror-public": "cp -r ./src/* ./public/"
   }
 }
