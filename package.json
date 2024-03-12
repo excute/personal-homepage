@@ -4,6 +4,7 @@
   },
   "scripts": {
     "build-tailwindcss": "npx tailwindcss -i ./src/style.css -o ./public/style.css",
+    "build-tailwindcss-watch": "npx tailwindcss -i ./src/style.css -o ./public/style.css --watch",
     "mirror-public": "cp -r ./src/* ./public/"
   }
 }
