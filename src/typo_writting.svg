@@ -1,0 +1,87 @@
+<!-- 
+
+                                     B
+OOOOOO                               B
+O                           O        B
+O       O   O  OOO   O   O OOO  OOO  B
+O       O   O O   O  O   O  O  O   O B
+OOOOOO   O O  O      O   O  O  O   O B
+O         O   O      O   O  O  OOOOO B
+O        O O  O      O   O  O  O     B
+O       O   O O   O  O   O  O  O   O B
+OOOOOO  O   O  OOO    OOOO  OO  OOO  B
+                                     B
+                                     B
+ R   R   R   R   R   R   R   R   R  
+R R R R R R R R R R R R R R R R R R 
+   R   R   R   R   R   R   R   R   R  
+
+subtract 3, 1 from Ln/Col, and invert the order to get coordinate
+
+-->
+
+<style>
+.char {
+	fill: #223;
+}
+</style>
+
+<svg width="39" height="14"
+	 viewBox="0 0 39 14" version="1.1"
+	 xmlns="http://www.w3.org/2000/svg"
+	 xmlns:xlink="http://www.w3.org/1999/xlink">
+	<polygon points="
+		0,1
+		6,1
+		6,2
+		1,2
+		1,5
+		6,5
+		6,6
+		1,6
+		1,9
+		6,9
+		6,10
+		0,10
+	"
+	class="char" />
+	<polygon points="
+    8,3
+		8,5
+		9,5
+		9,6
+		10,6
+		10,5
+		11,5
+		11,3
+		12,3
+		12,5
+		11,5
+		11,6
+		10,6
+		10,7
+		11,7
+		11,8
+		12,8
+		12,10
+		11,10
+		11,8
+		10,8
+		10,7
+		9,7
+		9,8
+		8,8
+		8,10
+		7,10
+		7,8
+		8,8
+		8,7
+		9,7
+		9,6
+		8,6
+		8,5
+		7,5
+		7,3
+	"
+	class="char" />
+</svg>
