@@ -1,31 +1,38 @@
 <!DOCTYPE html>
-<html lang="en" class="h-full">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" />
     <script src="script.js"></script>
-    <title>Excute's Web Page</title>
+    <title>Excute</title>
   </head>
   <body
-    class="w-screen h-full bg-white text-black font-sans font-normal"
+    class="w-screen h-screen bg-white dark:bg-neutral-800 text-black dark:text-neutral-50 font-sans font-normal"
     onload="main()"
   >
-    <div class="w-full h-1/3 invisible">spaaaace</div>
-    <a href="./first.html" target="_self">
-      <div class="w-4/5 h-1/3 m-auto flex flex-row justify-center">
-        <div class="object-contain h-full">
-          <img class="object-contain h-full" src="typo.svg" />
-        </div>
-        <div class="object-contain h-full">
-          <img
-            class="object-contain h-full"
-            id="logo-cursor"
-            src="cursor.svg"
+    <div class="w-screen h-screen flex justify-center items-center">
+      <a href="./first.html" target="_self" class="w-4/5 h-1/3"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 38 16"
+          class="w-full h-full"
+        >
+          <path
+            class="fill-black dark:fill-neutral-50"
+            d="M0 2h6v1H1v3h5v1H1v3h5v1H0zM9 4v2h1v1h1V6h1V4h1v2h-1v1h-1v1h1v1h1v2h-1V9h-1V8h-1v1H9v2H8V9h1V8h1V7H9V6H8V4zM18 6h1V5h-1V4h-3v1h-1v5h1v1h3v-1h1V9h-1v1h-3V5h3zM21 4v6h1v1h4V4h-1v6h-3V4zM27 4h1V2h1v2h1v1h-1v5h1v1h-2V5h-1zM35 7h-3v1h4V5h-1V4h-3v1h-1v5h1v1h3v-1h1V9h-1v1h-3V5h3z"
           />
-        </div>
-      </div>
-    </a>
+          <path
+            class="fill-[#f00]"
+            d="M0 14v1h1v-1h1v1h1v1h1v-1H3v-1H2v-1H1v1zM4 14v1h1v-1h1v1h1v1h1v-1H7v-1H6v-1H5v1zM8 14v1h1v-1h1v1h1v1h1v-1h-1v-1h-1v-1H9v1zM12 14v1h1v-1h1v1h1v1h1v-1h-1v-1h-1v-1h-1v1zM16 14v1h1v-1h1v1h1v1h1v-1h-1v-1h-1v-1h-1v1zM20 14v1h1v-1h1v1h1v1h1v-1h-1v-1h-1v-1h-1v1zM24 14v1h1v-1h1v1h1v1h1v-1h-1v-1h-1v-1h-1v1zM28 14v1h1v-1h1v1h1v1h1v-1h-1v-1h-1v-1h-1v1zM32 14v1h1v-1h1v1h1v1h1v-1h-1v-1h-1v-1h-1v1z"
+          />
+          <path
+            id="logo-cursor"
+            class="fill-black dark:fill-neutral-50"
+            d="M37 0v13h1V0z"
+          /></svg
+      ></a>
+    </div>
   </body>
 </html>
