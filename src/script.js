@@ -111,3 +111,8 @@ function main() {
   setUserStatuses();
   var tickCursorInterval = setInterval(tickCursor, 500);
 }
+
+function index() {
+  setUserStatuses();
+  var tickCursorInterval = setInterval(tickCursor, 500);
+}
