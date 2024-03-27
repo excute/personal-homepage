@@ -8,9 +8,10 @@
    2. [Me](#me)
    3. [Works](#works)
    4. [Hobbies](#hobbies)
-   5. [Games](#games)
-   6. [Travels](#travels)
-   7. [Photos](#photos)
+   5. [Music](#music)
+   6. [Games](#games)
+   7. [Travels](#travels)
+   8. [Photos](#photos)
 
 ---
 
@@ -65,6 +66,15 @@
 - Game server hosting
 - Music transcription
 - Discord bot development
+
+### Music
+
+- CF music, Original sound tracks, Background music
+- Rock
+  - Steriogram
+  - Tenacious D
+- Classic
+- Electro
 
 ### Games
 
